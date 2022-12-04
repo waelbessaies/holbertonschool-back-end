@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""employee IDreturns information about his/her TODO list progress."""
+""" Export to CSV"""
 
 import csv
 import requests
