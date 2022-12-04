@@ -21,8 +21,8 @@ if __name__ == '__main__':
     for done in task_done:
         print("\t {}".format(done))
 
-with open('{}.csv'.format(employee), "w") as csvfile:
-    DATA = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
-    for task in TODO:
-        DATA.writerow([employee, user.get('username'),
+    with open('{}.csv'.format(employee), "w") as csvfile:
+        DATA = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
+        for task in TODO:
+            DATA.writerow([employee, user.get('username'),
                       task.get('completed'), task.get('title')])
