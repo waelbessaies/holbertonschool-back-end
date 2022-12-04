@@ -25,4 +25,4 @@ with open('{}.csv'.format(employee), 'w') as csvfile:
     for task in TODO:
         if task.get('completed'):
             DATA.writerow([employee, user.get('username'),
-                            task.get('completed'), task.get('title')])
+                           task.get('completed'), task.get('title')])
