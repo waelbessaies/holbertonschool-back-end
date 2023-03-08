@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""Records all tasks from all employees"""
 import json
 import requests
 import sys
